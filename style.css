@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cossette+Texte:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    background-color: black;
+    color: brown;
+
+}
+.conteudo-principal{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ max-width: 1200px;
+ width: 100%;
+ margin: 0 auto;
+} 
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+.titulo-principal span {
+    color: aqua;
+}
