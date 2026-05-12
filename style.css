@@ -20,5 +20,37 @@
     font-size: 32px;
 }
 .titulo-principal span {
-    color: aqua;
+    color: var(--verde);
+}
+.botao:first-child{
+   border-radius:40px 0 0;
+
+}
+.botoes {
+    display: block;
+}
+@media screen and (mid-width:768px) {
+    .botoes{
+        display:flex; 
+    }
+    .botao:first-child{
+        border-radius:40px 40px 0 0;
+
+    }
+    .botao:last-child {
+        border-radius:0 40px 0 0;
+    }
+}
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+.abas{
+    background-color:var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.botao.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
 }
